@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		1CB467F720BC2D8900004475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB467F620BC2D8900004475 /* AppDelegate.swift */; };
-		1CB467F920BC2D8900004475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB467F820BC2D8900004475 /* ViewController.swift */; };
+		1CB467F920BC2D8900004475 /* FruitsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB467F820BC2D8900004475 /* FruitsListViewController.swift */; };
 		1CB467FC20BC2D8900004475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB467FA20BC2D8900004475 /* Main.storyboard */; };
 		1CB467FE20BC2D8B00004475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB467FD20BC2D8B00004475 /* Assets.xcassets */; };
 		1CB4680120BC2D8B00004475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB467FF20BC2D8B00004475 /* LaunchScreen.storyboard */; };
+		1CB4680920BC2EF600004475 /* SuggestionsBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4680820BC2EF600004475 /* SuggestionsBarViewCell.swift */; };
+		1CB4680B20BC2F4C00004475 /* SuggestionsBarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4680A20BC2F4C00004475 /* SuggestionsBarCollectionView.swift */; };
+		1CB4680D20BC2F9E00004475 /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4680C20BC2F9E00004475 /* Fruits.swift */; };
+		1CB4681220BC302800004475 /* FruitsImputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4681120BC302800004475 /* FruitsImputTextField.swift */; };
+		1CB4681420BC32EF00004475 /* FruitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4681320BC32EF00004475 /* FruitsTableViewCell.swift */; };
+		1CB4681620BC34AE00004475 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4681520BC34AE00004475 /* Shared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CB467F320BC2D8900004475 /* SuggestionBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuggestionBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB467F620BC2D8900004475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1CB467F820BC2D8900004475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CB467F820BC2D8900004475 /* FruitsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsListViewController.swift; sourceTree = "<group>"; };
 		1CB467FB20BC2D8900004475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CB467FD20BC2D8B00004475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CB4680020BC2D8B00004475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CB4680220BC2D8B00004475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB4680820BC2EF600004475 /* SuggestionsBarViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsBarViewCell.swift; sourceTree = "<group>"; };
+		1CB4680A20BC2F4C00004475 /* SuggestionsBarCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsBarCollectionView.swift; sourceTree = "<group>"; };
+		1CB4680C20BC2F9E00004475 /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		1CB4681120BC302800004475 /* FruitsImputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsImputTextField.swift; sourceTree = "<group>"; };
+		1CB4681320BC32EF00004475 /* FruitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsTableViewCell.swift; sourceTree = "<group>"; };
+		1CB4681520BC34AE00004475 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,43 @@
 			isa = PBXGroup;
 			children = (
 				1CB467F620BC2D8900004475 /* AppDelegate.swift */,
-				1CB467F820BC2D8900004475 /* ViewController.swift */,
+				1CB4681520BC34AE00004475 /* Shared.swift */,
+				1CB4680E20BC2FC400004475 /* Model */,
+				1CB4680F20BC2FD000004475 /* View */,
+				1CB4681020BC2FDB00004475 /* Controller */,
 				1CB467FA20BC2D8900004475 /* Main.storyboard */,
 				1CB467FD20BC2D8B00004475 /* Assets.xcassets */,
 				1CB467FF20BC2D8B00004475 /* LaunchScreen.storyboard */,
 				1CB4680220BC2D8B00004475 /* Info.plist */,
 			);
 			path = SuggestionBar;
+			sourceTree = "<group>";
+		};
+		1CB4680E20BC2FC400004475 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4680C20BC2F9E00004475 /* Fruits.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CB4680F20BC2FD000004475 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4681320BC32EF00004475 /* FruitsTableViewCell.swift */,
+				1CB4680A20BC2F4C00004475 /* SuggestionsBarCollectionView.swift */,
+				1CB4680820BC2EF600004475 /* SuggestionsBarViewCell.swift */,
+				1CB4681120BC302800004475 /* FruitsImputTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CB4681020BC2FDB00004475 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CB467F820BC2D8900004475 /* FruitsListViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB467F920BC2D8900004475 /* ViewController.swift in Sources */,
+				1CB4681420BC32EF00004475 /* FruitsTableViewCell.swift in Sources */,
+				1CB4680D20BC2F9E00004475 /* Fruits.swift in Sources */,
+				1CB467F920BC2D8900004475 /* FruitsListViewController.swift in Sources */,
 				1CB467F720BC2D8900004475 /* AppDelegate.swift in Sources */,
+				1CB4680920BC2EF600004475 /* SuggestionsBarViewCell.swift in Sources */,
+				1CB4681220BC302800004475 /* FruitsImputTextField.swift in Sources */,
+				1CB4681620BC34AE00004475 /* Shared.swift in Sources */,
+				1CB4680B20BC2F4C00004475 /* SuggestionsBarCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricavdf.SuggestionBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ricavdf.SuggestionBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
