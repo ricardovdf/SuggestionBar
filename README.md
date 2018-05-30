@@ -5,4 +5,6 @@ SuggestionBar is a Swift project that you can use as a starting point to build a
 <a href="https://giphy.com/gifs/fx4TIxprY1dynUckyr"><img src="https://media.giphy.com/media/fx4TIxprY1dynUckyr/giphy.gif" title=" "/></a>
 </p>
 
-![](https://media.giphy.com/media/fx4TIxprY1dynUckyr/giphy.gif)
+![alt-text](https://media.giphy.com/media/fx4TIxprY1dynUckyr/giphy.gif)
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
