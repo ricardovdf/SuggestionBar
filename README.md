@@ -4,3 +4,5 @@ SuggestionBar is a Swift project that you can use as a starting point to build a
 <p align="center">
 <a href="https://giphy.com/gifs/fx4TIxprY1dynUckyr"><img src="https://media.giphy.com/media/fx4TIxprY1dynUckyr/giphy.gif" title=" "/></a>
 </p>
+
+![](https://media.giphy.com/media/fx4TIxprY1dynUckyr/giphy.gif)
